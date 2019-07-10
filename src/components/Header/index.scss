@@ -1,0 +1,50 @@
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background: #fff;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    
+
+ul {
+    list-style: none;;
+
+
+li {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #081340;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+svg {
+    height: 16px;
+    width: 16px;
+    fill: white;
+}
+
+&:hover {
+    background:#676654;
+
+}
+}
+}
+
+span {
+    position: relative;
+    bottom: -180px;
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+
+}
+}
