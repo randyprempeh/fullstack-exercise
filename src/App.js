@@ -210,8 +210,6 @@ class App extends Component {
 })}
        <PlatformWrapper />
         </Container>
-
-
       </div>
     );
   }
