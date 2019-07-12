@@ -10,7 +10,7 @@ import { Twitter } from "./twitter";
 
 const DivStyle = {
     /* border: "3px solid #000", */
-    backgroundImage: "url(./ben.png)",
+    backgroundImage: "url(.ben.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     marginRight: "150px",
@@ -25,7 +25,7 @@ const PlatformWrapper = () => {
         <div className="design" style={DivStyle}>
             <section className="platform-content">
                 <div className="profile">
-                    <img src="/frame_anim.svg" alt="" />
+                    <img src="frame_anim.svg" alt="" />
                 </div>
                 <div className="text">
                     <small>Who am I?</small>
@@ -60,7 +60,6 @@ const PlatformWrapper = () => {
                     </div>
                 </div>
             </section>
-
         </div>
     )
 }
