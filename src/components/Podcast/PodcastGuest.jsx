@@ -6,7 +6,7 @@ const PodcastGuest = props => {
       <div>
         <div className="border p-2 guest-wrapper">
           <div className="image-wrapper">
-            <img src="/u1.jpg" alt="" />
+            <img src="u1.jpg" alt="" />
           </div>
         </div>
       </div>
