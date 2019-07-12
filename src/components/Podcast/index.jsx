@@ -12,7 +12,7 @@ const PodcastItem = props => {
             <div className="image-number">
               {props.number > 9 ? props.number : "0" + props.number}.
             </div>
-            <img src="/plane.jpeg" alt="" />
+            <img src="plane.jpeg" alt="" />
           </div>
         </div>
       </div>
