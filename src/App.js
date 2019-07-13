@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from 'components/Header';
-import Hero from 'components/Hero';
-import Container from 'components/Container';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Container from './components/Container';
 /* import Users from './components/Users';
  */
-import Podcast from "components/Podcast";
-import Platform from 'components/Platform';
-import PlatformWrapper from 'components/Platform/platform';
+import Podcast from "./components/Podcast";
+import Platform from './components/Platform';
+import PlatformWrapper from './components/Platform/platform';
 
 const Data = [
   {
